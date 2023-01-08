@@ -1,4 +1,4 @@
-body *{
+*{
     margin: 0;
     padding: 0;
     background-size: 100%;
@@ -17,10 +17,10 @@ body *{
     
     }
     .bouton{
-        
+        cursor:pointer;
         width:97%;
         height:60px;
-        border-radius: 7%;
+        border-radius: 7px;
         margin-bottom: 5px;
         margin-top: 5px;
         margin-left: 4px;
@@ -39,7 +39,9 @@ body *{
     .couleur{
     box-sizing:border-box;
     border: solid black 1px;
-    
+    }
+   .noir{
+        border: solid white 1px;
     }
     .grilles{
     display: grid;
